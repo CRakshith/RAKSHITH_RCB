@@ -6,5 +6,10 @@ pipeline{
                 echo 'This is rcbs first declaration of build stage'
             }
         }
+         stage('Deploy'){
+            steps{
+                echo 'This is rcbs first declaration of Deploy stage'
+            }
+        }
     }
 }

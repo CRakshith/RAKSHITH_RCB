@@ -1,0 +1,13 @@
+pipeline {
+
+agent any
+  stages{
+
+    Stage('Build stage'){
+      steps{
+        echo 'This is the RCBs 1st build stage'
+      }
+
+    }
+  }
+}

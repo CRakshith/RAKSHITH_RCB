@@ -9,9 +9,7 @@ pipeline{
          stage('Deploy'){
             steps{
                 echo 'This is rcbs first declaration of Deploy1 stage'
-            }
-            steps{
-                echo 'This is rcbs first declaration of Deploy2 stage'
+                echo 'This is the latest one'
             }
         }
     }

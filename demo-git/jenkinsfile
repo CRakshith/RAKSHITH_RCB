@@ -18,6 +18,7 @@ pipeline{
     post{
         always{
             echo 'This is rcbs first declaration of post stage'
+            echo 'This is the latest one for POLL SCM change'
             cleanWs()
         }
     }

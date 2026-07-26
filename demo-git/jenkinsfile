@@ -23,6 +23,7 @@ pipeline{
             echo 'This is rcbs first declaration of post stage'
             echo 'This is the latest one for POLL SCM change'
             echo 'This is the latest one for POLL SCM change2'
+            echo 'This is the latest one for POLL SCM change3'
             cleanWs()
         }
     }

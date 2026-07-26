@@ -10,9 +10,12 @@ pipeline{
             steps{
                 echo 'This is rcbs first declaration of Deploy1 stage'
                 echo 'This is the latest one'
+            }           
+        }
+        stage('Test'){
+            steps{
+                echo 'This is rcbs first declaration of Test stage'
             }
-
-           
         }
     }
     post{

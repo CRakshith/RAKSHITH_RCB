@@ -28,4 +28,9 @@ pipeline{
             cleanWs()
         }
     }
+    stage('Test webhooks'){
+        steps{
+            echo 'Testing webhooks'
+        }
+    }
 }
